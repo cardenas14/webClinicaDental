@@ -1,0 +1,30 @@
+
+.Registro_cita{
+	width: 450px;
+	margin: auto;
+	
+}
+.Registro_cita h3{
+	color: #3d7ba8;
+}
+hr{
+	border:0;
+	background: rgb(75, 75, 75);
+	height: 1px;
+	margin: 10px 0;
+	display: block;
+}
+form{
+	background: #FFF;
+	margin:auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+}
+input,select{
+    display: block;
+    width: 100%;
+    font-size:11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+}

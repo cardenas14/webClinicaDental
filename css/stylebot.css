@@ -1,0 +1,143 @@
+.container {
+    position: fixed;   
+    z-index: 5;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+}
+
+.chatbox {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    width: 18%;
+    height: 30%;
+    margin-right: 50px;
+    background: rgb(138, 133, 132);
+    border-radius: 50px;
+    
+}
+
+.headerbot {
+    background: #7b8bbe;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.avail {
+    font-size: 12px;
+    padding: 0 20px;
+    padding-right: 30px;
+}
+
+.avail::after {
+    content: "";
+    display: inline-block;
+    background: rgb(4, 180, 4);
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.body {
+    background: rgb(31, 8, 86);
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 0 10px;
+}
+
+input[type="submit"] {
+    height: 25px;
+    border: 0;
+    background: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.visible {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.me {
+    color: white;
+    font-family: cursive;
+    width: 55%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #6749AF;
+    border-radius: 10px;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.alicia {
+    color: white;
+    font-family: cursive;
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(116, 100, 154);
+    border-radius: 10px;
+    float: left;
+    text-align: left;
+    display: block;
+}
+
+.imgRedonda {
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+}
+
+.x-chatbot{
+    width: 40px;
+    margin-left: 50px;
+}
+.textobot{
+    display: inline;
+}
+.iconochat{
+    position: fixed;   
+    z-index: 5;
+    float:right;
+    top: 63%;
+    width: 100%;
+
+   
+}
+.iconochat-2{
+    width: 60px
+    
+}
+.iconochat-1{
+    position: absolute;
+    top: 15rem;
+    right: 5rem;
+    float:right;
+    border-radius: 20px ;
+    background-color:#1ee9f0;
+
+}

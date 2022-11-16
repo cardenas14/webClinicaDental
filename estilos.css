@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #fff
+    ;
+}
+.bx{
+   font-size: 100px;
+}
+.contenedor{
+    text-align: center;
+    font-size: 30px; 
+}
+
+.nuestro{
+    display: inline-flex;
+    width: 750px;
+    text-align: left;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    border-radius: 40px ;
+    margin: 40px;
+}
+.bxs-bookmark-star{
+    padding-top:  225px; ;
+    margin-left: 20px;
+}
+.bx-glasses{
+    padding-top:  225px; ;
+    margin-left: 20px;
+}
+
+.titulo_N{
+    padding-top: 200px;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+
+.parrafo{
+    margin: 20px;
+    margin-right: 100px;
+    padding-top: 100px;
+}
+.parrafo2{
+    padding-top: 5%;
+}
+
+
+
+.img_titulo{
+    width: 100px;
+    height: 50px;
+}
+.titulo1{
+    font-weight: 600;  /*grosor de la letra*/
+    font-size: 100px;
+    font-family:  'Erica One', cursive;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+/*imagen titulo*/
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(37, 33, 77) 0%, rgba(112, 111, 112, 0) 100%) ,url(image/titulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+
+
+
+}
+/*  Menu de página web     */
+
+
+.menu{
+    float: right;
+    line-height: 70px;
+    }
+
+    .fijo{
+        position: fixed;  
+        width: 100%; 
+        z-index: 5;
+        
+    }
+    
+    .menu li a{
+    font-family: "Segoe UI";
+    display: inline-block;
+    padding: 40px 30px;
+    line-height: normal;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    }
+    .menu li{
+    display: inline-block;
+    text-align:center;
+    }
+    .menu li a:hover{
+        background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    }
+/* Imagen del logo     */
+.img1{
+    width: 160px;
+    height:90px;
+    padding: 0px;
+    margin: 10px;
+    }
+
+/* Nuestras especialidades */
+
+.especialidad{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.contenido1{
+    height: 150px;
+    width: 1290px;
+    text-align: justify;
+    margin: auto;
+    font-size: 30px;  
+}
+
+.imag{
+    border-radius: 50px ;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 350px;
+    height: 350px;
+}
+.h4_especialidad{
+    font-size: 25px;
+
+}
+.medio_especialida{
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+}
+.cada_es{
+    border-radius: 50px ;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 510px;
+}
+.contenedor_espe{
+    text-align: center;
+}
+
+.Ver_masPadre{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    height: 100px;
+    width: 410px;
+}
+
+.Ver_mas{ 
+    font-size: 30px;
+    text-decoration:none;
+    
+}
+.Ver_masPadre:hover{
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+}
+/*iconos........................*/
+.op{
+    margin-top: 100px;
+	margin-bottom:0 ;
+    
+	
+}
+.llamar{
+    height: 90vh;
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.932) 0%, rgba(251, 194, 235, 0.548) 100%) ,url(image/Logo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+
+}
+
+.colum{
+	
+	padding: 50px;
+	text-align: center;
+    font-size: 15px;
+	
+}
+.colum1{
+    padding: top 50px;
+}
+
+/*  Parte final de la pagina web     */
+
+.contacto{
+    background: #636363;
+    font-size: 20px;
+    
+}
+.contacto2{
+    text-align: auto;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;  
+    color:white;  
+    font-family:  'Erica One', cursive;
+
+
+}
+.tituloc{
+    font-size: 20px;
+}
+/*  Logo en la parte final     */
+.img2{
+    width: 200px;
+    height:200px;
+    padding: 0px;
+    margin: 10px;
+    }
+/*  Redes sociales     */    
+.menu2{
+    list-style: none;
+    display: flex;
+
+}
+.menu2 li a {
+   display: inline-block;
+    text-align:center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 100px;
+    }
+
+.TituloR {
+    background-image: white;
+    text-align:right;
+    margin-top: 30px;
+    font-size: 20px;
+
+}    
+.session{
+    margin-top: 5rem;
+    margin: auto;   
+}
+.sessionA{
+    color:rgb(255, 255, 255);
+    
+}
+footer{
+    height: 30px;
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*pagina especialidad*/
+
+    /*titulo efecto*/
+    .fondo{
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    }
+
+    .titulo4{
+    padding-top: 6.6rem;
+    }
+    
+    .imagentitulo{
+        height: 40rem;
+        width: 111rem;
+        display: block;
+        margin: auto;
+    }
+    .titulo10 span{
+        position: relative;
+        text-align: center;
+        font-size: 11rem;
+        font-weight: bolder;
+        bottom: 25rem;
+        color: #000;
+        font-family: "Fredoka One";   
+    }
+    .titulo10{
+        text-align: center;   
+        
+    }
+    .titulo10 span::before{
+     content: var(--l);
+     position: absolute;
+     transform: scale(1.1);
+     filter: blur(15px);
+    }
+    .titulo10 span::after{
+        content: var(--l);
+        position: absolute;
+        top: 80%;
+        left: 0;
+        filter: blur(30px);
+        transform: rotateX(50deg);
+    }
+    .titulo10 span:hover{
+        filter: contrast(250%);
+    }
+    .titulo10 span:nth-child(1){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(2){
+        color:lightcyan;
+    }
+    .titulo10 span:nth-child(3){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(4){
+        color:lightcyan;
+    }
+    .titulo10 span:nth-child(5){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(6){
+        color:lightcyan;
+    }
+
+    .titulo10 span:nth-child(7){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(8){
+        color:lightcyan;
+    }
+    .titulo10 span:nth-child(9){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(10){
+        color:lightcyan;
+    }
+    .titulo10 span:nth-child(11){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(12){
+        color:lightcyan;
+    }
+    .titulo10 span:nth-child(13){
+        color: skyblue;
+    }
+    .titulo10 span:nth-child(14){
+        color:lightcyan;
+    }
+    /*fin titulo efecto*/
+   
+    .contenidoEspec{
+        margin-top:15px; 
+        padding: 20px;
+        text-align: left;
+        font-size: 2rem;
+        
+        } 
+    .h2mas{
+        padding-bottom: 50px;
+    }
+    .contenedorEspe{
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 20rem;
+        background: white;
+        border-radius: 20px ;
+        width: 60rem;
+        background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+        
+    }
+    /*imagenes publicidad*/  
+.slider{
+	width: 100%;
+	margin:auto;
+	overflow: hidden;  
+    border-radius: 10px
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 100%;
+	animation: cambio 15s infinite alternate;
+}
+li{
+    list-style: none;
+}
+
+.slider li{
+	width: 100%;
+}
+
+.slider img{
+	width: 60rem;
+	height:500px;
+}
+@keyframes cambio{
+	0%{ 
+		margin-left:0%;
+	}
+	20%{ 
+		margin-left: 0%;
+	}
+	
+	25%{ 
+		margin-left: -100%;
+	}
+	45%{
+		margin-left: -100%;
+	}
+	
+	50%{ 
+		margin-left: -200%;
+	}
+	70%{ 
+		margin-left: -200%;}
+	
+	75%{ margin-left: -300%;}
+	100%{ margin-left: -300%;}
+	
+}
+    /*fin de imagenes publicidad*/
+
+    a{
+        text-decoration: none;
+        color: gray;
+        margin: 10px;
+       
+    }   
+    /*Efecto*/
+
+    .cuadro{
+        border: skyblue 2px solid;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        padding: 45px 20px;    
+        color:skyblue   ;
+        font-size: 22px;
+        overflow: hidden;   
+        transition: 0.2s;
+        width: 33%;
+        height: 120px;
+        margin: 20px;
+        margin: auto;
+        }
+        .cuadro:hover{
+            background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        box-shadow: 0 0 10px skyblue , 0 0 40px skyblue , 0 0 80px skyblue;
+        transition-delay: 0.7s;
+        }
+        .cuadro span{
+            position: absolute;
+            display: block;
+        }
+        /*EFECTO LINEA*/
+        .span1{
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg,transparent,skyblue);    
+        }
+        .cuadro:hover .span1{
+            left: 100%;
+            transition: 1s; 
+        }
+        .subir{
+            position: relative;
+            bottom: 10rem;
+            width: 60rem;
+            margin: auto;/*Centro*/
+        }
+        
+ 
+@media screen and (max-width:800px) {
+    .titulo1{
+        width: 600px;
+        margin: auto;     
+    }
+    .img1{
+        width: 100px;
+        height:60px;
+        padding: 0px;
+        margin: 5px;
+     }
+     .menu li a{
+        padding: 20px 10px;
+        font-size: 20px;
+        }
+    .especialidad{
+        font-size: 25px;
+    }
+    .contenido1{
+        font-size: 25px;
+        width: 500px;
+    }
+
+    .cada_es{
+        border-radius: 50px ;
+        margin: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 350px;
+        height: 420px;
+    }
+    .imag{
+        border-radius: 50px ;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 200px;
+        height: 200px;
+    }
+    .medio_especialida{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+    }
+    .Ver_masPadre{
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        height: 60px;
+        width: 350px;
+    }
+    
+    .Ver_mas{ 
+        font-size: 25px;
+        text-decoration:none;
+        
+    }
+    .contenedor{
+        text-align: center;
+        font-size: 30px; 
+    }
+    
+    .nuestro{
+        display: inline-block;
+        width: 400px;
+        text-align: center;
+        border-radius: 40px ;
+
+    }
+    .bxs-bookmark-star{
+        padding-top:  25px; 
+        padding-right: 10px;
+        
+    }
+    .bx-glasses{
+        padding-top:  20px; ;
+        padding-right: 10px;
+
+    }
+    .titulo_N{
+        padding-top: 15px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .parrafo{
+        margin: 15px;
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    .contacto{
+     font-size: 10px;
+    }
+
+    
+    .contacto2{
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 0px;  
+    }
+    .tituloc{
+        font-size: 20px;
+        width: 5px;
+    }
+    /*  Logo en la parte final     */
+    .img2{
+        width: 150px;
+        height: 150px;
+        padding: 0px;
+        margin: 10px;
+        }
+
+    /*  Redes sociales     */    
+    .menu2 li a{
+         display: inline-block;
+         text-align:center;
+         margin-left: 10px;
+         margin-top: 30px;
+         }
+        
+    .TituloR {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 15px;
+    }  
+}
+@media screen and (max-width:500px) {
+
+    .img1{
+        width: 80px;
+        height:60px;
+        padding: 0px;
+        margin: 5px;
+     }
+     .menu li a{
+        padding: 20px 10px;
+        font-size: 15px;
+        }
+
+    .titulo1{
+        width: 500px;
+        margin: auto;
+    }   
+    .especialidad{
+        font-size: 25px;
+    }
+    .contenido1{
+        font-size: 25px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .contacto2{
+        text-align: justify;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 0px;  
+    }
+    .menu2 li a{
+        display: inline-block;
+        text-align:center;
+        margin-left: 5px;
+        margin-top: 15px;
+        }
+       
+    
+
+}
+

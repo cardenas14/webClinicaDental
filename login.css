@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(image/loginfondo.jpg) no-repeat center;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+ 
+}
+
+.login-box {
+  width: 350px;
+  height: 500px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  color: rgb(0, 0, 0);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.bxs-left-arrow{
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 80px;
+  color: #000000;
+  border-radius: 20%;
+  background-color: #ffffff;
+}
+.bxs-left-arrow:hover{
+  background-color: #accbee;
+  color: cornflowerblue;
+}
+.titulo_login{
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+    font-weight: bold; 
+}
+.ventana_doctor{
+    display:none;
+}
+
+
+.opciones_paciente_doctor{
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+.TitutlodelLogin{
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 20px;
+    padding:15px;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    
+}
+.TitutlodelLogin:hover{
+    background: #49b3f0;
+}
+.crearCuentaDe{
+    text-decoration: none;  
+}
+.cuentaCrear{
+   font-size: 20px;
+   text-align: center;
+}
+
+/*Registro*/
+
+.registro_fondo{
+  height: 100vh;
+  position: relative;
+  background-color: rgba(255,255,255,0.6);
+  display: none;
+}
+
+.formulario_registro{
+  width: 42rem;
+  height: 40rem;
+  position: absolute;
+  background:rgb(255, 255, 255);
+  margin: 10rem 38.5rem;
+  border-radius: 25px;
+  border: 5px solid #ff0000;
+}
+.ContenidoFormularioRegistro{
+  margin: 2rem;
+  font-size:20px;
+  padding: 0;
+}
+.subtitulo{
+  font-size: 15px;
+  margin: 0;
+}
+.tituloregistro{
+  margin: 0;
+}
+.inputss{
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.subtituloR{
+  font-size: 20px;
+  margin: 2px;
+}
+.registrar{
+  font-size: 25px;
+  width: 13rem;
+  height: 3rem;;
+  background: rgb(6, 255, 19);
+  border-radius: 10px;
+  border: 3px solid #49b3f0;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12.5rem;
+}
+.botoncerrar{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size:30px;
+}
